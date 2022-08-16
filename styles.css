@@ -185,6 +185,7 @@ margin-top: 2rem;
 }
 
 .contact:hover{
+    cursor: pointer;
     color: hsl(136, 65%, 51%);
 }
 
