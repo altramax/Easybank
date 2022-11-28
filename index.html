@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Frontend Mentor | Easybank</title>
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:
+    wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 <body>
     <nav class="navigation">
         <img src="./images/logo.svg" alt="logo" class="logo">
-      <div class="menu-container">
-        <span class="menu">Home</span>
-        <span class="menu">About</span>
-        <span class="menu">Contact</span>
-        <span class="menu">Blog</span>
-        <span class="menu">Careers</span>
-      </div>
       <div class="hamburger">
-         <p class="request">Request Invite</p>
-         <div class="hamburger-image">
+        <div class="hamburger-image">
           <img src="./images/icon-hamburger.svg" alt="mockup" class="image">
-         </div>
+          <span class="material-icons" id="hidden">close</span>
+        </div>
+        <div class="menu-container hidden"> 
+          <span class="menu">Home</span>
+          <span class="menu">About</span>
+          <span class="menu">Contact</span>
+          <span class="menu">Blog</span>
+          <span class="menu">Careers</span>
+        </div>
+         <p class="request hidden">Request Invite</p>  
       </div>
     </nav>
     <header class="header">
@@ -141,5 +145,6 @@
           <small id="challenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/Altramax">Ezekiel Ajayi</a>.</small>   
        </div>
     </footer>
+    <script src="javascript.js"></script>
 </body>
 </html>

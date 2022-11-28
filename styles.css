@@ -30,13 +30,27 @@
     width: 100%;
 }
 
-.menu-container, .request{
-    width: 0;
-    display: none;
-}
 
 .hamburger{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.hamburger-image{
     width: 10%;
+}
+
+.hidden{
+    display: none;
+    width: 0;
+}
+
+.menu-container{
+    width: 100%;
+  position: absolute;
+  /* top: 2rem; */
+  margin: auto;
 }
 
 /* header  */
@@ -205,6 +219,11 @@ margin-top: 2rem;
     width: 90%;
     color: var(--text-color);
     padding: 2rem 0 0 0;
+}
+
+#hidden{
+    display: none;
+    width: 0;
 }
 
 @media screen and (min-width:768px) {
