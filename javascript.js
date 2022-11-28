@@ -20,4 +20,4 @@ const closeMenu = function(){
 }
 
 closeMenuBTN.addEventListener('click', closeMenu);
-overlay.addEventListener('click', closeMenu)
+overlay.addEventListener('click', closeMenu);
