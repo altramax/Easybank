@@ -38,6 +38,7 @@
 .hamburger-image{
     width: 2rem;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .hidden{
@@ -51,10 +52,25 @@
   left: 1.5rem;
   right: 1.5rem;
   background-color: #fff;
+  z-index: 6;
+}
+
+.open, .close, .overlay{
+    cursor: pointer;
+}
+
+.overlay{
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    backdrop-filter: blur(3px); 
 }
 
 .menu{
-    /* background-color: #2d314e; */
     display: block;
     margin: auto;
     width: fit-content;
@@ -227,11 +243,6 @@ margin-top: 2rem;
     width: 90%;
     color: var(--text-color);
     padding: 2rem 0 0 0;
-}
-
-#hidden{
-    display: none;
-    width: 0;
 }
 
 @media screen and (min-width:768px) {
