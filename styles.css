@@ -33,12 +33,11 @@
 
 .hamburger{
     width: 50%;
-    display: flex;
-    justify-content: end;
 }
 
 .hamburger-image{
-    width: 10%;
+    width: 2rem;
+    margin-left: auto;
 }
 
 .hidden{
@@ -47,10 +46,19 @@
 }
 
 .menu-container{
-    width: 100%;
   position: absolute;
-  /* top: 2rem; */
-  margin: auto;
+  top: 5.2rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  background-color: #fff;
+}
+
+.menu{
+    /* background-color: #2d314e; */
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 1rem;
 }
 
 /* header  */
